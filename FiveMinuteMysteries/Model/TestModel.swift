@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Test: Codable, Identifiable {
+struct Test: Codable, Identifiable, Hashable {
   let id: String
   let body: [String]
   let choice: [String]
-  let nav: [String]
+  let nav: [Int]
 }

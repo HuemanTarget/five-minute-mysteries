@@ -13,18 +13,18 @@
       "Go Down"
     ],
     "nav": [
-      "a",
-      "b",
-      "c",
-      "d"
+      1,
+      2,
+      3,
+      4
     ]
   },
   {
     "id": "a",
     "body": [
-        "Pet my belly, you know you want to; seize the hand and shred it! 𝕄𝔼𝕆𝕎 peer out window, chatter at birds, lure them to mouth cry louder at reflection. Spill litter box, scratch at owner, destroy all furniture, especially couch i show my fluffy belly but it's a trap!",
-        "if you pet it i will tear up your hand meowzer but make it to the carpet before i vomit mmmmmm, so i vomit in the bed in the middle of the night or chirp at birds.",
-        "Poop on grasses. Show belly white cat sleeps on a black shirt so eats owners hair then claws head but catching very fast laser pointer so steal mom's crouton while she is in the bathroom kick up litter so experiences short bursts of poo-phoria after going to the loo."
+        "A1-Pet my belly, you know you want to; seize the hand and shred it! 𝕄𝔼𝕆𝕎 peer out window, chatter at birds, lure them to mouth cry louder at reflection. Spill litter box, scratch at owner, destroy all furniture, especially couch i show my fluffy belly but it's a trap!",
+        "A2-if you pet it i will tear up your hand meowzer but make it to the carpet before i vomit mmmmmm, so i vomit in the bed in the middle of the night or chirp at birds.",
+        "A3-Poop on grasses. Show belly white cat sleeps on a black shirt so eats owners hair then claws head but catching very fast laser pointer so steal mom's crouton while she is in the bathroom kick up litter so experiences short bursts of poo-phoria after going to the loo."
     ],
     "choice": [
       "Fight The Zombie",
@@ -33,18 +33,18 @@
       "Tickle The Zombie"
     ],
     "nav": [
-      "aa",
-      "ab",
-      "ac",
-      "ad"
+      5,
+      6,
+      7,
+      8
     ]
   },
   {
-    "id": "a",
+    "id": "b",
     "body": [
-        "Pet my belly, you know you want to; seize the hand and shred it! 𝕄𝔼𝕆𝕎 peer out window, chatter at birds, lure them to mouth cry louder at reflection. Spill litter box, scratch at owner, destroy all furniture, especially couch i show my fluffy belly but it's a trap!",
-        "if you pet it i will tear up your hand meowzer but make it to the carpet before i vomit mmmmmm, so i vomit in the bed in the middle of the night or chirp at birds.",
-        "Poop on grasses. Show belly white cat sleeps on a black shirt so eats owners hair then claws head but catching very fast laser pointer so steal mom's crouton while she is in the bathroom kick up litter so experiences short bursts of poo-phoria after going to the loo."
+        "B1-Pet my belly, you know you want to; seize the hand and shred it! 𝕄𝔼𝕆𝕎 peer out window, chatter at birds, lure them to mouth cry louder at reflection. Spill litter box, scratch at owner, destroy all furniture, especially couch i show my fluffy belly but it's a trap!",
+        "B2-if you pet it i will tear up your hand meowzer but make it to the carpet before i vomit mmmmmm, so i vomit in the bed in the middle of the night or chirp at birds.",
+        "B3-Poop on grasses. Show belly white cat sleeps on a black shirt so eats owners hair then claws head but catching very fast laser pointer so steal mom's crouton while she is in the bathroom kick up litter so experiences short bursts of poo-phoria after going to the loo."
     ],
     "choice": [
       "Fight The Ogre",
@@ -53,18 +53,18 @@
       "Tickle The Ogre"
     ],
     "nav": [
-      "ba",
-      "bb",
-      "bc",
-      "bd"
+      9,
+      10,
+      11,
+      12
     ]
   },
   {
     "id": "c",
     "body": [
-        "Pet my belly, you know you want to; seize the hand and shred it! 𝕄𝔼𝕆𝕎 peer out window, chatter at birds, lure them to mouth cry louder at reflection. Spill litter box, scratch at owner, destroy all furniture, especially couch i show my fluffy belly but it's a trap!",
-        "if you pet it i will tear up your hand meowzer but make it to the carpet before i vomit mmmmmm, so i vomit in the bed in the middle of the night or chirp at birds.",
-        "Poop on grasses. Show belly white cat sleeps on a black shirt so eats owners hair then claws head but catching very fast laser pointer so steal mom's crouton while she is in the bathroom kick up litter so experiences short bursts of poo-phoria after going to the loo."
+        "C1-Pet my belly, you know you want to; seize the hand and shred it! 𝕄𝔼𝕆𝕎 peer out window, chatter at birds, lure them to mouth cry louder at reflection. Spill litter box, scratch at owner, destroy all furniture, especially couch i show my fluffy belly but it's a trap!",
+        "C2-if you pet it i will tear up your hand meowzer but make it to the carpet before i vomit mmmmmm, so i vomit in the bed in the middle of the night or chirp at birds.",
+        "C3-Poop on grasses. Show belly white cat sleeps on a black shirt so eats owners hair then claws head but catching very fast laser pointer so steal mom's crouton while she is in the bathroom kick up litter so experiences short bursts of poo-phoria after going to the loo."
     ],
     "choice": [
       "Fight The Ghost",
@@ -73,18 +73,18 @@
       "Tickle The Ghost"
     ],
     "nav": [
-      "ca",
-      "cb",
-      "cc",
-      "cd"
+      13,
+      14,
+      15,
+      16
     ]
   },
   {
     "id": "d",
     "body": [
-        "Pet my belly, you know you want to; seize the hand and shred it! 𝕄𝔼𝕆𝕎 peer out window, chatter at birds, lure them to mouth cry louder at reflection. Spill litter box, scratch at owner, destroy all furniture, especially couch i show my fluffy belly but it's a trap!",
-        "if you pet it i will tear up your hand meowzer but make it to the carpet before i vomit mmmmmm, so i vomit in the bed in the middle of the night or chirp at birds.",
-        "Poop on grasses. Show belly white cat sleeps on a black shirt so eats owners hair then claws head but catching very fast laser pointer so steal mom's crouton while she is in the bathroom kick up litter so experiences short bursts of poo-phoria after going to the loo."
+        "D1-Pet my belly, you know you want to; seize the hand and shred it! 𝕄𝔼𝕆𝕎 peer out window, chatter at birds, lure them to mouth cry louder at reflection. Spill litter box, scratch at owner, destroy all furniture, especially couch i show my fluffy belly but it's a trap!",
+        "D2-if you pet it i will tear up your hand meowzer but make it to the carpet before i vomit mmmmmm, so i vomit in the bed in the middle of the night or chirp at birds.",
+        "D3-Poop on grasses. Show belly white cat sleeps on a black shirt so eats owners hair then claws head but catching very fast laser pointer so steal mom's crouton while she is in the bathroom kick up litter so experiences short bursts of poo-phoria after going to the loo."
     ],
     "choice": [
       "Fight The Bear",
@@ -93,10 +93,10 @@
       "Tickle The Bear"
     ],
     "nav": [
-      "da",
-      "db",
-      "dc",
-      "dd"
+      17,
+      18,
+      19,
+      20
     ]
   }
 ]

@@ -11,7 +11,7 @@ import SwiftUI
 struct FiveMinuteMysteriesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(test: tests[0])
+            ContentView().environmentObject(SourceOfTruth())
         }
     }
 }

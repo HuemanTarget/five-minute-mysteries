@@ -8,19 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
-  let test: Test
+  let test = [Test]()
+//  @State private var nav: Int = 2
+  @EnvironmentObject var truth: SourceOfTruth
   
   var body: some View {
-    ScrollView(.horizontal, content: {
-      HStack {
-        PageGridView()
-      }
-    })
+    StoryView(test: tests[truth.nav])
   }
 }
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView(test: tests[0])
+    ContentView().environmentObject(SourceOfTruth())
   }
 }
