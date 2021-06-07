@@ -14,6 +14,7 @@
 		4E54C7F1266E63E6001D004A /* fmmtest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E54C7F0266E63E6001D004A /* fmmtest.json */; };
 		4E54C7F3266E6422001D004A /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7F2266E6422001D004A /* TestModel.swift */; };
 		4E54C7F6266E65C5001D004A /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7F5266E65C5001D004A /* CodableBundleExtension.swift */; };
+		4E54C7F9266E66D9001D004A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7F8266E66D9001D004A /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4E54C7F0266E63E6001D004A /* fmmtest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fmmtest.json; sourceTree = "<group>"; };
 		4E54C7F2266E6422001D004A /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		4E54C7F5266E65C5001D004A /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		4E54C7F8266E66D9001D004A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		4E54C7DE266E63B5001D004A /* FiveMinuteMysteries */ = {
 			isa = PBXGroup;
 			children = (
+				4E54C7F7266E66CD001D004A /* Utility */,
 				4E54C7F4266E65AE001D004A /* Extension */,
 				4E54C7EF266E63C9001D004A /* Data */,
 				4E54C7EE266E63C1001D004A /* Model */,
@@ -100,6 +103,14 @@
 				4E54C7F5266E65C5001D004A /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		4E54C7F7266E66CD001D004A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4E54C7F8266E66D9001D004A /* Constant.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 			files = (
 				4E54C7F6266E65C5001D004A /* CodableBundleExtension.swift in Sources */,
 				4E54C7F3266E6422001D004A /* TestModel.swift in Sources */,
+				4E54C7F9266E66D9001D004A /* Constant.swift in Sources */,
 				4E54C7E2266E63B5001D004A /* ContentView.swift in Sources */,
 				4E54C7E0266E63B5001D004A /* FiveMinuteMysteriesApp.swift in Sources */,
 			);

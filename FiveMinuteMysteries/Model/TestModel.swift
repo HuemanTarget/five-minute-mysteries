@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Product: Codable, Identifiable {
+struct Test: Codable, Identifiable {
   let id: String
   let body: String
   let choice: [String]
