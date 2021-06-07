@@ -15,6 +15,10 @@
 		4E54C7F3266E6422001D004A /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7F2266E6422001D004A /* TestModel.swift */; };
 		4E54C7F6266E65C5001D004A /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7F5266E65C5001D004A /* CodableBundleExtension.swift */; };
 		4E54C7F9266E66D9001D004A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7F8266E66D9001D004A /* Constant.swift */; };
+		4E54C7FB266E6D04001D004A /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7FA266E6D04001D004A /* StoryView.swift */; };
+		4E54C7FD266E6F41001D004A /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7FC266E6F41001D004A /* QuestionsView.swift */; };
+		4E54C7FF266E6FD9001D004A /* ChoiceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7FE266E6FD9001D004A /* ChoiceButtonView.swift */; };
+		4E54C801266E736D001D004A /* PageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C800266E736D001D004A /* PageGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		4E54C7F2266E6422001D004A /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		4E54C7F5266E65C5001D004A /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		4E54C7F8266E66D9001D004A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4E54C7FA266E6D04001D004A /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		4E54C7FC266E6F41001D004A /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		4E54C7FE266E6FD9001D004A /* ChoiceButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceButtonView.swift; sourceTree = "<group>"; };
+		4E54C800266E736D001D004A /* PageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				4E54C7EE266E63C1001D004A /* Model */,
 				4E54C7DF266E63B5001D004A /* FiveMinuteMysteriesApp.swift */,
 				4E54C7E1266E63B5001D004A /* ContentView.swift */,
+				4E54C800266E736D001D004A /* PageGridView.swift */,
+				4E54C7FA266E6D04001D004A /* StoryView.swift */,
+				4E54C7FC266E6F41001D004A /* QuestionsView.swift */,
+				4E54C7FE266E6FD9001D004A /* ChoiceButtonView.swift */,
 				4E54C7E3266E63B7001D004A /* Assets.xcassets */,
 				4E54C7E8266E63B7001D004A /* Info.plist */,
 				4E54C7E5266E63B7001D004A /* Preview Content */,
@@ -183,7 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E54C7FB266E6D04001D004A /* StoryView.swift in Sources */,
+				4E54C7FD266E6F41001D004A /* QuestionsView.swift in Sources */,
 				4E54C7F6266E65C5001D004A /* CodableBundleExtension.swift in Sources */,
+				4E54C7FF266E6FD9001D004A /* ChoiceButtonView.swift in Sources */,
+				4E54C801266E736D001D004A /* PageGridView.swift in Sources */,
 				4E54C7F3266E6422001D004A /* TestModel.swift in Sources */,
 				4E54C7F9266E66D9001D004A /* Constant.swift in Sources */,
 				4E54C7E2266E63B5001D004A /* ContentView.swift in Sources */,

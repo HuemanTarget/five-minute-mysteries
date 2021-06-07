@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+  let test: Test
+  
+  var body: some View {
+    ScrollView(.horizontal, content: {
+      HStack {
+        PageGridView()
+      }
+    })
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView(test: tests[0])
+  }
 }
