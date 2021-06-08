@@ -14,7 +14,6 @@ struct StoryFourBodyView: View {
   
   var body: some View {
     ZStack {
-      Color.black.edgesIgnoringSafeArea(.all)
       GroupBox {
         TabView {
           ForEach(epOne.body, id: \.self) { item in
@@ -87,6 +86,7 @@ struct StoryFourBodyView: View {
         .tabViewStyle(PageTabViewStyle())
         .frame(height: 500)
       }
+      .groupBoxStyle(TransparentGroupBox())
     }
   }
 }

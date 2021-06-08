@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E2BC006266FC36A00BC7AA1 /* EpisodesBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC005266FC36A00BC7AA1 /* EpisodesBodyView.swift */; };
 		4E2BC00A266FCBD200BC7AA1 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC009266FCBD200BC7AA1 /* EpisodeView.swift */; };
+		4E2BC00C266FD02900BC7AA1 /* TransparentGroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC00B266FD02900BC7AA1 /* TransparentGroupBox.swift */; };
 		4E54C7E0266E63B5001D004A /* FiveMinuteMysteriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7DF266E63B5001D004A /* FiveMinuteMysteriesApp.swift */; };
 		4E54C7E2266E63B5001D004A /* StoryViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7E1266E63B5001D004A /* StoryViewOne.swift */; };
 		4E54C7E4266E63B7001D004A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E54C7E3266E63B7001D004A /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		4E2BC005266FC36A00BC7AA1 /* EpisodesBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesBodyView.swift; sourceTree = "<group>"; };
 		4E2BC009266FCBD200BC7AA1 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
+		4E2BC00B266FD02900BC7AA1 /* TransparentGroupBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentGroupBox.swift; sourceTree = "<group>"; };
 		4E54C7DC266E63B5001D004A /* FiveMinuteMysteries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveMinuteMysteries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E54C7DF266E63B5001D004A /* FiveMinuteMysteriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveMinuteMysteriesApp.swift; sourceTree = "<group>"; };
 		4E54C7E1266E63B5001D004A /* StoryViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewOne.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				4E54C7F8266E66D9001D004A /* Constant.swift */,
 				4E54C806266EBFAA001D004A /* SourceOfTruth.swift */,
+				4E2BC00B266FD02900BC7AA1 /* TransparentGroupBox.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				4E54C7FB266E6D04001D004A /* StoryOneBodyView.swift in Sources */,
 				4E54C7FD266E6F41001D004A /* QuestionsView.swift in Sources */,
 				4E54C810266EF1A8001D004A /* StoryThreeBodyView.swift in Sources */,
+				4E2BC00C266FD02900BC7AA1 /* TransparentGroupBox.swift in Sources */,
 				4E54C7F6266E65C5001D004A /* CodableBundleExtension.swift in Sources */,
 				4E54C817266EF2A6001D004A /* StoryViewFour.swift in Sources */,
 				4E54C815266EF297001D004A /* StoryFourBodyView.swift in Sources */,

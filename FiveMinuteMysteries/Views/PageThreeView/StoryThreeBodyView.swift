@@ -8,25 +8,24 @@
 import SwiftUI
 
 struct StoryThreeBodyView: View {
-  let test: Test
+  let epOne: EpOne
   @EnvironmentObject var truth: SourceOfTruth
   @State private var isPresented = false
   
   var body: some View {
     ZStack {
-      Color.black.edgesIgnoringSafeArea(.all)
       GroupBox {
         TabView {
-          ForEach(test.body, id: \.self) { item in
+          ForEach(epOne.body, id: \.self) { item in
             Text(item)
               .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
           }
           VStack(spacing: 30) {
             Button(action: {
-              self.truth.nav = test.nav[0]
+              self.truth.nav = epOne.nav[0]
               isPresented.toggle()
             }) {
-              Text(test.choice[0])
+              Text(epOne.choice[0])
                 .padding()
                 .frame(width: 200, height: 50, alignment: .leading)
                 .foregroundColor(.black)
@@ -38,10 +37,10 @@ struct StoryThreeBodyView: View {
             )
             
             Button(action: {
-              self.truth.nav = test.nav[1]
+              self.truth.nav = epOne.nav[1]
               isPresented.toggle()
             }) {
-              Text(test.choice[1])
+              Text(epOne.choice[1])
                 .padding()
                 .frame(width: 200, height: 50, alignment: .leading)
                 .foregroundColor(.black)
@@ -53,10 +52,10 @@ struct StoryThreeBodyView: View {
             )
             
             Button(action: {
-              self.truth.nav = test.nav[2]
+              self.truth.nav = epOne.nav[2]
               isPresented.toggle()
             }) {
-              Text(test.choice[2])
+              Text(epOne.choice[2])
                 .padding()
                 .frame(width: 200, height: 50, alignment: .leading)
                 .foregroundColor(.black)
@@ -68,10 +67,10 @@ struct StoryThreeBodyView: View {
             )
             
             Button(action: {
-              self.truth.nav = test.nav[3]
+              self.truth.nav = epOne.nav[3]
               isPresented.toggle()
             }) {
-              Text(test.choice[3])
+              Text(epOne.choice[3])
                 .padding()
                 .frame(width: 200, height: 50, alignment: .leading)
                 .foregroundColor(.black)
@@ -87,12 +86,13 @@ struct StoryThreeBodyView: View {
         .tabViewStyle(PageTabViewStyle())
         .frame(height: 500)
       }
+      .groupBoxStyle(TransparentGroupBox())
     }
   }
 }
 
 struct StoryThreeBodyView_Previews: PreviewProvider {
   static var previews: some View {
-    StoryThreeBodyView(test: tests[0])
+    StoryThreeBodyView(epOne: epOneChoices[0])
   }
 }
