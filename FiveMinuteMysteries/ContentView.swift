@@ -9,11 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
   let test = [Test]()
-//  @State private var nav: Int = 2
+  //  @State private var nav: Int = 2
   @EnvironmentObject var truth: SourceOfTruth
   
   var body: some View {
+    
     StoryView(test: tests[truth.nav])
+    
   }
 }
 

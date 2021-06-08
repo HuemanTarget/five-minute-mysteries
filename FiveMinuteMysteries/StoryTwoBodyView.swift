@@ -1,5 +1,5 @@
 //
-//  StoryView.swift
+//  StoryTwoBodyView.swift
 //  FiveMinuteMysteries
 //
 //  Created by Joshua Basche on 6/7/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StoryView: View {
+struct StoryTwoBodyView: View {
   let test: Test
   @EnvironmentObject var truth: SourceOfTruth
 //  @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
@@ -123,38 +123,10 @@ struct StoryView: View {
     }
 //    .navigate(to: StoryViewTwo(), when: $willMoveToNextScreen)
   }
-  
 }
 
-
-struct StoryView_Previews: PreviewProvider {
+struct StoryTwoBodyView_Previews: PreviewProvider {
   static var previews: some View {
-    StoryView(test: tests[0])
-  }
-}
-
-extension View {
-  
-  /// Navigate to a new view.
-  /// - Parameters:
-  ///   - view: View to navigate to.
-  ///   - binding: Only navigates when this condition is `true`.
-  func navigate<NewView: View>(to view: NewView, when binding: Binding<Bool>) -> some View {
-    NavigationView {
-      ZStack {
-        self
-          .navigationBarTitle("")
-          .navigationBarHidden(true)
-        
-        NavigationLink(
-          destination: view
-            .navigationBarTitle("")
-            .navigationBarHidden(true),
-          isActive: binding
-        ) {
-          EmptyView()
-        }
-      }
-    }
+    StoryTwoBodyView(test: tests[0])
   }
 }

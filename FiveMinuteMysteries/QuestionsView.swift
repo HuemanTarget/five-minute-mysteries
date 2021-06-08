@@ -121,7 +121,8 @@ struct QuestionsView: View {
       }
       .navigationBarTitle("")
       .navigationBarHidden(true)
-      
+      .navigationBarBackButtonHidden(true)
+      .edgesIgnoringSafeArea([.top, .bottom])
     }
     
   }
