@@ -18,7 +18,7 @@ struct StoryViewOne: View {
   }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct StoryViewOne_Previews: PreviewProvider {
   static var previews: some View {
     StoryViewOne().environmentObject(SourceOfTruth())
   }

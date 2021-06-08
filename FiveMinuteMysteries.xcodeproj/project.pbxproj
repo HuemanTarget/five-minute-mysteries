@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E2BC006266FC36A00BC7AA1 /* EpisodesBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC005266FC36A00BC7AA1 /* EpisodesBodyView.swift */; };
+		4E2BC00A266FCBD200BC7AA1 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC009266FCBD200BC7AA1 /* EpisodeView.swift */; };
 		4E54C7E0266E63B5001D004A /* FiveMinuteMysteriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7DF266E63B5001D004A /* FiveMinuteMysteriesApp.swift */; };
 		4E54C7E2266E63B5001D004A /* StoryViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7E1266E63B5001D004A /* StoryViewOne.swift */; };
 		4E54C7E4266E63B7001D004A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E54C7E3266E63B7001D004A /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		4E2BC005266FC36A00BC7AA1 /* EpisodesBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesBodyView.swift; sourceTree = "<group>"; };
+		4E2BC009266FCBD200BC7AA1 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
 		4E54C7DC266E63B5001D004A /* FiveMinuteMysteries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveMinuteMysteries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E54C7DF266E63B5001D004A /* FiveMinuteMysteriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveMinuteMysteriesApp.swift; sourceTree = "<group>"; };
 		4E54C7E1266E63B5001D004A /* StoryViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewOne.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		4E2BC008266FCB9800BC7AA1 /* EpisodesView */ = {
 			isa = PBXGroup;
 			children = (
+				4E2BC009266FCBD200BC7AA1 /* EpisodeView.swift */,
 				4E2BC005266FC36A00BC7AA1 /* EpisodesBodyView.swift */,
 			);
 			path = EpisodesView;
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2BC00A266FCBD200BC7AA1 /* EpisodeView.swift in Sources */,
 				4E2BC006266FC36A00BC7AA1 /* EpisodesBodyView.swift in Sources */,
 				4E54C807266EBFAA001D004A /* SourceOfTruth.swift in Sources */,
 				4E54C812266EF1E6001D004A /* StoryViewThree.swift in Sources */,

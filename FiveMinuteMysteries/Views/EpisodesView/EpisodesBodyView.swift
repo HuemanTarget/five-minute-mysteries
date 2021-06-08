@@ -13,18 +13,18 @@ struct EpisodesBodyView: View {
   var body: some View {
     ZStack {
       Color.white.opacity(0.5)
-                      .frame(width: 300, height: 400)
+                      .frame(width: 325, height: 600)
                       .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
                       .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 10)
                       .blur(radius: 1)
       VStack {
         Spacer()
         
-        Text("Five Minute Mysteries Episodes")
+        Text("Five Minute\nMysteries Episodes")
           .bold()
+          .multilineTextAlignment(.center)
           .font(.title2)
-        
-        Spacer()
+          .padding(.bottom, 50)
         
         Button(action: {
           isPresented.toggle()
@@ -115,6 +115,27 @@ struct EpisodesBodyView: View {
         }) {
           VStack {
             Text("Episode Five")
+              .font(.footnote)
+            Text("TBD Coming Sooon")
+              .bold()
+          }
+          .padding()
+          .frame(width: 250, height: 50, alignment: .center)
+          .foregroundColor(.black)
+        }
+        .disabled(true)
+        .fullScreenCover(isPresented: $isPresented, content: StoryViewOne.init)
+        .background (
+          RoundedRectangle(cornerRadius: 12)
+            .stroke(Color.gray, lineWidth: 1)
+        )
+        .padding(.bottom)
+        
+        Button(action: {
+          isPresented.toggle()
+        }) {
+          VStack {
+            Text("Episode Six")
               .font(.footnote)
             Text("TBD Coming Sooon")
               .bold()
