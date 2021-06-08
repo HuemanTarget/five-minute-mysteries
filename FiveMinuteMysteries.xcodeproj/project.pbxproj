@@ -26,6 +26,8 @@
 		4E54C812266EF1E6001D004A /* StoryViewThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C811266EF1E6001D004A /* StoryViewThree.swift */; };
 		4E54C815266EF297001D004A /* StoryFourBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C814266EF297001D004A /* StoryFourBodyView.swift */; };
 		4E54C817266EF2A6001D004A /* StoryViewFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C816266EF2A6001D004A /* StoryViewFour.swift */; };
+		4E54C819266FB0D0001D004A /* fmmep01.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E54C818266FB0D0001D004A /* fmmep01.json */; };
+		4E54C81B266FB4BF001D004A /* EpOneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C81A266FB4BF001D004A /* EpOneModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		4E54C811266EF1E6001D004A /* StoryViewThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewThree.swift; sourceTree = "<group>"; };
 		4E54C814266EF297001D004A /* StoryFourBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryFourBodyView.swift; sourceTree = "<group>"; };
 		4E54C816266EF2A6001D004A /* StoryViewFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewFour.swift; sourceTree = "<group>"; };
+		4E54C818266FB0D0001D004A /* fmmep01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fmmep01.json; sourceTree = "<group>"; };
+		4E54C81A266FB4BF001D004A /* EpOneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpOneModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				4E54C7F2266E6422001D004A /* TestModel.swift */,
+				4E54C81A266FB4BF001D004A /* EpOneModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 		4E54C7EF266E63C9001D004A /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				4E54C818266FB0D0001D004A /* fmmep01.json */,
 				4E54C7F0266E63E6001D004A /* fmmtest.json */,
 			);
 			path = Data;
@@ -253,6 +259,7 @@
 			files = (
 				4E54C7E7266E63B7001D004A /* Preview Assets.xcassets in Resources */,
 				4E54C7E4266E63B7001D004A /* Assets.xcassets in Resources */,
+				4E54C819266FB0D0001D004A /* fmmep01.json in Resources */,
 				4E54C7F1266E63E6001D004A /* fmmtest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +273,7 @@
 			files = (
 				4E54C807266EBFAA001D004A /* SourceOfTruth.swift in Sources */,
 				4E54C812266EF1E6001D004A /* StoryViewThree.swift in Sources */,
+				4E54C81B266FB4BF001D004A /* EpOneModel.swift in Sources */,
 				4E54C7FB266E6D04001D004A /* StoryView.swift in Sources */,
 				4E54C7FD266E6F41001D004A /* QuestionsView.swift in Sources */,
 				4E54C810266EF1A8001D004A /* StoryThreeBodyView.swift in Sources */,
