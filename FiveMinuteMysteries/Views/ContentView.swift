@@ -1,5 +1,5 @@
 //
-//  StoryViewTwo.swift
+//  ContentView.swift
 //  FiveMinuteMysteries
 //
 //  Created by Joshua Basche on 6/7/21.
@@ -7,18 +7,19 @@
 
 import SwiftUI
 
-struct StoryViewTwo: View {
+struct ContentView: View {
   let test = [Test]()
   @EnvironmentObject var truth: SourceOfTruth
   
   var body: some View {
-    StoryTwoBodyView(test: tests[truth.nav])
-    //    Text("Hello World")
+    
+    StoryView(test: tests[truth.nav])
+    
   }
 }
 
-struct StoryViewTwo_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    StoryViewTwo().environmentObject(SourceOfTruth())
+    ContentView().environmentObject(SourceOfTruth())
   }
 }
