@@ -7,19 +7,19 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct StoryViewOne: View {
   let epOne = [EpOne]()
   @EnvironmentObject var truth: SourceOfTruth
   
   var body: some View {
     
-    StoryView(epOne: epOneChoices[truth.nav])
+    StoryOneBodyView(epOne: epOneChoices[truth.nav])
     
   }
 }
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView().environmentObject(SourceOfTruth())
+    StoryViewOne().environmentObject(SourceOfTruth())
   }
 }

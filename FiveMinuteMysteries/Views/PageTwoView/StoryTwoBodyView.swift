@@ -19,7 +19,7 @@ struct StoryTwoBodyView: View {
         TabView {
           ForEach(epOne.body, id: \.self) { item in
             Text(item)
-              .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+              .font(.title)
           }
           VStack(spacing: 30) {
             Button(action: {

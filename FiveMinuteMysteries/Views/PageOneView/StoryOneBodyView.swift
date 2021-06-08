@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StoryView: View {
+struct StoryOneBodyView: View {
   let epOne: EpOne
   @EnvironmentObject var truth: SourceOfTruth
   @State private var isPresented = false
@@ -95,7 +95,7 @@ struct StoryView: View {
 
 struct StoryView_Previews: PreviewProvider {
   static var previews: some View {
-    StoryView(epOne: epOneChoices[0])
+    StoryOneBodyView(epOne: epOneChoices[0])
   }
 }
 
