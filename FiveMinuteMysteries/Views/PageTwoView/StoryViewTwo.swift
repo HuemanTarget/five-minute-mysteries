@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct StoryViewTwo: View {
-  let test = [Test]()
+  let epOne = [EpOne]()
   @EnvironmentObject var truth: SourceOfTruth
   
   var body: some View {
-    StoryTwoBodyView(test: tests[truth.nav])
+    StoryTwoBodyView(epOne: epOneChoices[truth.nav])
   }
 }
 
