@@ -13,7 +13,7 @@ struct TransparentGroupBox: GroupBoxStyle {
     configuration.content
       .frame(maxWidth: .infinity)
       .padding()
-      .background(RoundedRectangle(cornerRadius: 8).fill(Color.white.opacity(0.5)))
+      .background(RoundedRectangle(cornerRadius: 20).fill(Color.white.opacity(0.5)))
       .overlay(configuration.label.padding(.leading, 4), alignment: .topLeading)
   }
 }
