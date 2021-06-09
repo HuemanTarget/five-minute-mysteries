@@ -9,6 +9,7 @@ import SwiftUI
 
 let tests: [Test] = Bundle.main.decode("fmmtest.json")
 let epOneChoices: [EpOne] = Bundle.main.decode("fmmepOne.json")
+let epOneResults: [EpOneResults] = Bundle.main.decode("fmmepOneResults.json")
 
 let columnSpacing: CGFloat = 10
 let rowSpacing: CGFloat = 10

@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct FiveMinuteMysteriesApp: App {
-    var body: some Scene {
-        WindowGroup {
-            EpisodeView().environmentObject(SourceOfTruth())
-        }
+  var body: some Scene {
+    WindowGroup {
+      LoginView()
+//      EpisodeView().environmentObject(SourceOfTruth())
     }
+  }
 }
