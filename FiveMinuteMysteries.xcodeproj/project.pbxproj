@@ -18,6 +18,8 @@
 		4E2BC01A26712D2700BC7AA1 /* EpOneResultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC01926712D2700BC7AA1 /* EpOneResultsModel.swift */; };
 		4E2BC01D26712EAC00BC7AA1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC01C26712EAC00BC7AA1 /* LoginView.swift */; };
 		4E2BC01F26712EC700BC7AA1 /* LoginBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC01E26712EC700BC7AA1 /* LoginBodyView.swift */; };
+		4E2BC021267135B500BC7AA1 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC020267135B500BC7AA1 /* RegisterView.swift */; };
+		4E2BC023267135EB00BC7AA1 /* RegisterBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC022267135EB00BC7AA1 /* RegisterBodyView.swift */; };
 		4E54C7E0266E63B5001D004A /* FiveMinuteMysteriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7DF266E63B5001D004A /* FiveMinuteMysteriesApp.swift */; };
 		4E54C7E2266E63B5001D004A /* StoryViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C7E1266E63B5001D004A /* StoryViewOne.swift */; };
 		4E54C7E4266E63B7001D004A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E54C7E3266E63B7001D004A /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 		4E2BC01926712D2700BC7AA1 /* EpOneResultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpOneResultsModel.swift; sourceTree = "<group>"; };
 		4E2BC01C26712EAC00BC7AA1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		4E2BC01E26712EC700BC7AA1 /* LoginBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBodyView.swift; sourceTree = "<group>"; };
+		4E2BC020267135B500BC7AA1 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4E2BC022267135EB00BC7AA1 /* RegisterBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterBodyView.swift; sourceTree = "<group>"; };
 		4E54C7DC266E63B5001D004A /* FiveMinuteMysteries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveMinuteMysteries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E54C7DF266E63B5001D004A /* FiveMinuteMysteriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveMinuteMysteriesApp.swift; sourceTree = "<group>"; };
 		4E54C7E1266E63B5001D004A /* StoryViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewOne.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 			children = (
 				4E2BC01C26712EAC00BC7AA1 /* LoginView.swift */,
 				4E2BC01E26712EC700BC7AA1 /* LoginBodyView.swift */,
+				4E2BC020267135B500BC7AA1 /* RegisterView.swift */,
+				4E2BC022267135EB00BC7AA1 /* RegisterBodyView.swift */,
 			);
 			path = LoginView;
 			sourceTree = "<group>";
@@ -362,8 +368,10 @@
 				4E2BC00C266FD02900BC7AA1 /* TransparentGroupBox.swift in Sources */,
 				4E54C7F6266E65C5001D004A /* CodableBundleExtension.swift in Sources */,
 				4E54C817266EF2A6001D004A /* StoryViewFive.swift in Sources */,
+				4E2BC021267135B500BC7AA1 /* RegisterView.swift in Sources */,
 				4E54C815266EF297001D004A /* StoryFiveBodyView.swift in Sources */,
 				4E54C7FF266E6FD9001D004A /* ChoiceButtonView.swift in Sources */,
+				4E2BC023267135EB00BC7AA1 /* RegisterBodyView.swift in Sources */,
 				4E2BC00E26711CF600BC7AA1 /* StoryResultsView.swift in Sources */,
 				4E54C7F3266E6422001D004A /* TestModel.swift in Sources */,
 				4E54C7F9266E66D9001D004A /* Constant.swift in Sources */,

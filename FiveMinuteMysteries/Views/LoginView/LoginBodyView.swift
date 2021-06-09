@@ -10,6 +10,7 @@ import SwiftUI
 struct LoginBodyView: View {
   @State private var username: String = ""
   @State private var password: String = ""
+  @State private var isPresented: Bool = false
   
   var body: some View {
     ZStack {
@@ -30,10 +31,12 @@ struct LoginBodyView: View {
         HStack {
           Spacer()
           Button(action: {
-            
+            isPresented = true
           }) {
             Text("Signup")
           }
+          Spacer()
+          Text("|")
           Spacer()
           Button(action: {
             
@@ -43,6 +46,9 @@ struct LoginBodyView: View {
           Spacer()
         }
       }
+      .sheet(isPresented: $isPresented, content: {
+        RegisterView()
+      })
     }
   }
 }
