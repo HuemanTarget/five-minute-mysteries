@@ -10,7 +10,8 @@ import SwiftUI
 struct StoryTwoBodyView: View {
   let epOne: EpOne
   @EnvironmentObject var truth: SourceOfTruth
-  @State private var isPresented = false
+  @State private var isPresentedTwo = false
+
   
   var body: some View {
     ZStack {
@@ -25,14 +26,15 @@ struct StoryTwoBodyView: View {
             VStack(spacing: 30) {
               Button(action: {
                 self.truth.nav = epOne.nav[0]
-                isPresented.toggle()
+                isPresentedTwo.toggle()
+//                presentationMode.wrappedValue.dismiss()
               }) {
                 Text(epOne.choice[0])
                   .padding()
                   .frame(width: 200, height: 50, alignment: .leading)
                   .foregroundColor(.black)
               }
-              .fullScreenCover(isPresented: $isPresented, content: StoryViewThree.init)
+              .fullScreenCover(isPresented: $isPresentedTwo, content: StoryViewThree.init)
               .background (
                 RoundedRectangle(cornerRadius: 12)
                   .stroke(Color.black, lineWidth: 1)
@@ -40,14 +42,15 @@ struct StoryTwoBodyView: View {
               
               Button(action: {
                 self.truth.nav = epOne.nav[1]
-                isPresented.toggle()
+//                presentationMode.wrappedValue.dismiss()
+                isPresentedTwo.toggle()
               }) {
-                Text(epOne.choice[1])
+                Text(epOne.choice[0])
                   .padding()
                   .frame(width: 200, height: 50, alignment: .leading)
                   .foregroundColor(.black)
               }
-              .fullScreenCover(isPresented: $isPresented, content: StoryViewThree.init)
+              .fullScreenCover(isPresented: $isPresentedTwo, content: StoryViewThree.init)
               .background (
                 RoundedRectangle(cornerRadius: 12)
                   .stroke(Color.black, lineWidth: 1)
@@ -55,14 +58,15 @@ struct StoryTwoBodyView: View {
               
               Button(action: {
                 self.truth.nav = epOne.nav[2]
-                isPresented.toggle()
+//                presentationMode.wrappedValue.dismiss()
+                isPresentedTwo.toggle()
               }) {
                 Text(epOne.choice[2])
                   .padding()
                   .frame(width: 200, height: 50, alignment: .leading)
                   .foregroundColor(.black)
               }
-              .fullScreenCover(isPresented: $isPresented, content: StoryViewThree.init)
+              .fullScreenCover(isPresented: $isPresentedTwo, content: StoryViewThree.init)
               .background (
                 RoundedRectangle(cornerRadius: 12)
                   .stroke(Color.black, lineWidth: 1)
@@ -70,14 +74,15 @@ struct StoryTwoBodyView: View {
               
               Button(action: {
                 self.truth.nav = epOne.nav[3]
-                isPresented.toggle()
+//                presentationMode.wrappedValue.dismiss()
+                isPresentedTwo.toggle()
               }) {
                 Text(epOne.choice[3])
                   .padding()
                   .frame(width: 200, height: 50, alignment: .leading)
                   .foregroundColor(.black)
               }
-              .fullScreenCover(isPresented: $isPresented, content: StoryViewThree.init)
+              .fullScreenCover(isPresented: $isPresentedTwo, content: StoryViewThree.init)
               .background (
                 RoundedRectangle(cornerRadius: 12)
                   .stroke(Color.black, lineWidth: 1)

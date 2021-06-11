@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1A60E1267269BB0003925E /* EnvironmentValue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A60E0267269BB0003925E /* EnvironmentValue+Extensions.swift */; };
 		4E2BC006266FC36A00BC7AA1 /* EpisodesBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC005266FC36A00BC7AA1 /* EpisodesBodyView.swift */; };
 		4E2BC00A266FCBD200BC7AA1 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC009266FCBD200BC7AA1 /* EpisodeView.swift */; };
 		4E2BC00C266FD02900BC7AA1 /* TransparentGroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BC00B266FD02900BC7AA1 /* TransparentGroupBox.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E1A60E0267269BB0003925E /* EnvironmentValue+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValue+Extensions.swift"; sourceTree = "<group>"; };
 		4E2BC005266FC36A00BC7AA1 /* EpisodesBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesBodyView.swift; sourceTree = "<group>"; };
 		4E2BC009266FCBD200BC7AA1 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
 		4E2BC00B266FD02900BC7AA1 /* TransparentGroupBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentGroupBox.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				4E54C7F5266E65C5001D004A /* CodableBundleExtension.swift */,
+				4E1A60E0267269BB0003925E /* EnvironmentValue+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				4E54C815266EF297001D004A /* StoryFiveBodyView.swift in Sources */,
 				4E54C7FF266E6FD9001D004A /* ChoiceButtonView.swift in Sources */,
 				4E2BC023267135EB00BC7AA1 /* RegisterBodyView.swift in Sources */,
+				4E1A60E1267269BB0003925E /* EnvironmentValue+Extensions.swift in Sources */,
 				4E2BC00E26711CF600BC7AA1 /* StoryResultsView.swift in Sources */,
 				4E54C7F3266E6422001D004A /* TestModel.swift in Sources */,
 				4E54C7F9266E66D9001D004A /* Constant.swift in Sources */,

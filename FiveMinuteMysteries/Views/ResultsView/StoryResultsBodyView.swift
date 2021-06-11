@@ -8,32 +8,85 @@
 import SwiftUI
 
 struct StoryResultsBodyView: View {
-  let epOneResults: EpOneResults
+  let epOne: EpOne
   @EnvironmentObject var truth: SourceOfTruth
   @State private var isPresented = false
   
   var body: some View {
     ZStack {
       GroupBox {
-        VStack(spacing: 20) {
-          Text(epOneResults.body)
+        TabView {
+          ForEach(epOne.body, id: \.self) { item in
+            Text(item)
+              .font(.title)
+          }
+          VStack(spacing: 30) {
 
+              Button(action: {
+                self.truth.nav = epOne.nav[0]
+                isPresented.toggle()
+              }) {
+                Text(epOne.choice[0])
+                  .padding()
+                  .frame(width: 200, height: 50, alignment: .leading)
+                  .foregroundColor(.black)
+              }
+              .fullScreenCover(isPresented: $isPresented, content: StoryViewOne.init)
+              .background (
+                RoundedRectangle(cornerRadius: 12)
+                  .stroke(Color.black, lineWidth: 1)
+              )
             Button(action: {
-              self.truth.nav = epOneResults.nav
+              self.truth.nav = epOne.nav[1]
               isPresented.toggle()
             }) {
-              Text(epOneResults.choice)
+              Text(epOne.choice[1])
                 .padding()
                 .frame(width: 200, height: 50, alignment: .leading)
                 .foregroundColor(.black)
             }
+            .hidden()
             .fullScreenCover(isPresented: $isPresented, content: StoryViewOne.init)
-            .background (
-              RoundedRectangle(cornerRadius: 12)
-                .stroke(Color.black, lineWidth: 1)
-            )
+//            .background (
+//              RoundedRectangle(cornerRadius: 12)
+//                .stroke(Color.black, lineWidth: 1)
+//            )
+            
+            Button(action: {
+              self.truth.nav = epOne.nav[2]
+              isPresented.toggle()
+            }) {
+              Text(epOne.choice[2])
+                .padding()
+                .frame(width: 200, height: 50, alignment: .leading)
+                .foregroundColor(.black)
+            }
+            .hidden()
+            .fullScreenCover(isPresented: $isPresented, content: StoryViewOne.init)
+//            .background (
+//              RoundedRectangle(cornerRadius: 12)
+//                .stroke(Color.black, lineWidth: 1)
+//            )
+            
+            Button(action: {
+              self.truth.nav = epOne.nav[3]
+              isPresented.toggle()
+            }) {
+              Text(epOne.choice[3])
+                .padding()
+                .frame(width: 200, height: 50, alignment: .leading)
+                .foregroundColor(.black)
+            }
+            .hidden()
+            .fullScreenCover(isPresented: $isPresented, content: StoryViewOne.init)
+//            .background (
+//              RoundedRectangle(cornerRadius: 12)
+//                .stroke(Color.black, lineWidth: 1)
+//            )
+          }
+          .tabViewStyle(PageTabViewStyle())
+          .frame(height: 500)
         }
-        .frame(height: 500)
       }
       .groupBoxStyle(TransparentGroupBox())
     }
@@ -42,6 +95,6 @@ struct StoryResultsBodyView: View {
 
 struct StoryResultsBodyView_Previews: PreviewProvider {
   static var previews: some View {
-    StoryResultsBodyView(epOneResults: epOneResults[0])
+    StoryResultsBodyView(epOne: epOneChoices[0])
   }
 }

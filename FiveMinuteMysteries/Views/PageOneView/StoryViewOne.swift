@@ -10,6 +10,7 @@ import SwiftUI
 struct StoryViewOne: View {
   let epOne = [EpOne]()
   @EnvironmentObject var truth: SourceOfTruth
+  @State var pageTwo: Bool = false
   
   var body: some View {
     

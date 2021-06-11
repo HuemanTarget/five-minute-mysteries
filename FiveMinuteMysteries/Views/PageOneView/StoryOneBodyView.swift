@@ -10,7 +10,8 @@ import SwiftUI
 struct StoryOneBodyView: View {
   let epOne: EpOne
   @EnvironmentObject var truth: SourceOfTruth
-  @State private var isPresented = false
+  @State var isPresented = false
+  @Environment(\.presentationMode) var presentationMode
   
   var body: some View {
     ZStack {

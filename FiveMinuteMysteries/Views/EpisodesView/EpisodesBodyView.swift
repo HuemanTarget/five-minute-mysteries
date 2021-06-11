@@ -13,10 +13,10 @@ struct EpisodesBodyView: View {
   var body: some View {
     ZStack {
       Color.white.opacity(0.5)
-                      .frame(width: 325, height: 600)
-                      .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
-                      .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 10)
-                      .blur(radius: 1)
+        .frame(width: 325, height: 600)
+        .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
+        .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 10)
+        .blur(radius: 1)
       VStack {
         Spacer()
         
@@ -28,6 +28,7 @@ struct EpisodesBodyView: View {
         
         Button(action: {
           isPresented.toggle()
+          
         }) {
           VStack {
             Text("Episode One")
